@@ -25,38 +25,38 @@
 
     function positionQuickQuote () {
 
-        // Short-length pages
-        if (options.pixelsFromTop > totalPageHeight) {
-            $elem.css({
-              display: 'block',
-              position: 'fixed',
-              top: viewPortHalfHeight - quickQuoteButtonHalfHeight
-            });
-        }
-        // Long-length pages
-        else {
-          $elem.css({
-            display: 'block',
-            top: options.pixelsFromTop
-          });
+      // Short-length pages
+      if (options.pixelsFromTop > totalPageHeight) {
+        $elem.css({
+          display: 'block',
+          position: 'fixed',
+          top: viewPortHalfHeight - quickQuoteButtonHalfHeight
+        });
+      }
+      // Long-length pages
+      else {
+        $elem.css({
+          display: 'block',
+          top: options.pixelsFromTop
+        });
 
         if ($(window).scrollTop() >= (options.pixelsFromTop - (viewPortHalfHeight - quickQuoteButtonHalfHeight))) {
-            $elem.css({
-                position: 'fixed',
-                top: viewPortHalfHeight - quickQuoteButtonHalfHeight
-            });
+          $elem.css({
+            position: 'fixed',
+            top: viewPortHalfHeight - quickQuoteButtonHalfHeight
+          });
         }
         else {
           $elem.css({
-              position: 'absolute',
-              top: options.pixelsFromTop
+            position: 'absolute',
+            top: options.pixelsFromTop
           });
         }
       }
     }
 
     $(window).scroll(function () {
-        positionQuickQuote();
+      positionQuickQuote();
     });
 
     positionQuickQuote();
