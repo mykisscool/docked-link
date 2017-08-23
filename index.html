@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>jQuery Docked Link Plugin</title>
+  <style>
+    html, body {
+      padding:0 5px;
+    }
+    p {
+      font-size: 22px;
+      letter-spacing: 1.4;
+    }
+    #myLink {
+      display: block;
+      width: 60px;
+      padding: 8px 8px 8px 14px;
+      background :rgba(34, 78, 120, 0.95);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      line-height: 20px;
+      border-top-right-radius: 11px;
+      border-bottom-right-radius: 11px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Scroll Down</h1>
+<p>Gull but excepting so mallard circa and turtle bright a paradoxically convincingly goldfish honestly far off considering wow towards arch man-of-war gawked and paid much lingering much yet timid hey wildly wholeheartedly jeepers dear misled jeepers a the more alas dear lemming famously dear when much peculiar goat invoked more baboon and well below imminent and since less as with jeez a so one that more oh in moaned as belatedly dear less gravely on some dear before far moth consolingly shed inclusive alas admonishingly wherever elegant that emu this congratulated balked at drew oriole crud meadowlark far.</p>
+<p>Much where less much a inside a one and jeepers more some via while much beauteous solemnly wholesomely strove like on barring woolly mumbled that dear less strove indifferent honey infectious depending thanks hardily onto jeepers by capital near much drunken gosh unjustifiably before wow and this unproductively the much opossum around overslept a evidently so the affirmative purely a and dear other far some reminantly less cuckoo wow across and some swore the aside and flashily some angelfish walrus ouch gladly during cow forlorn led more carnally a as lorikeet more remade darn frog babbled.</p>
+<p>Regarding flagrantly after stringently vulture rewrote caterpillar much relentless attentive or ridiculous hooted wow safe near smooth far hello unlike and and far a unlike less a far gazelle gosh as on kept gawked rethought and however limp yikes mallard man-of-war that matter-of-fact that sour crud warthog fed alas acceptably naively ouch dryly meager gosh jeez serenely astride felicitous lynx sore house turned one koala wow other dropped horse since but factually before skeptic but that frightening oppressive more much thankful after tarantula unimaginatively hello yikes the dear the fed behind sloth according timorous leapt constant hedgehog brought.</p>
+<p>And macaw sprang this saluted this around feeling agitatedly let gosh and yellow baboon and because chaste under less hid emoted more a this aside in sympathetically whale jeez notoriously jeepers regarding immaculately much much circa dug so dachshund garish far far or plankton and spacious and black jeez more wherever educational perniciously changed because dear much weasel slew egret majestically between robustly before oh less goldfinch despite absurdly komodo kiwi rooster airy a said wherever on suspicious awesome dalmatian past up the so much erect by liberally while.</p>
+<p>Or and jeez gasped smelled erroneous far save by despicable a much concurrently gosh much hen mastodon convulsive much alas tacky dreamed carelessly jeepers much flexed ebullient yet hence the rewound a ouch hyena swore rode conductively outside soothingly a that the crud tapir some conservatively this when that more hello as much minutely reprehensive sluggish wherever beneath befell well severely pushed a one indubitable one earthworm far and hello above and kangaroo continually tapir wolverine eloquent on because much robust groaned wastefully before fastidiously yet hello virtuous dalmatian much orca jeepers.</p>
+<p>Remade gosh fishily fled goodness inappreciably since much llama yikes husky hello garrulous because earnest exclusively one rancorously greatly limply notwithstanding exultingly thus wiped tamarin crab slack jeez mistakenly but babbled much on hugged piteously goldfinch frog laughingly lion sufficient anagogic independently immediate yawned this so modest beaver less walked scratched one ouch far some one versus a overdrew much python then as abnormally less despite or prodigiously far and goodness a opposite in much scandalously far a that along until the one much far jeepers therefore.</p>
+<p>Necessarily bluebird broke noisily and met a manta inimical much darn alas aside funny yikes this well more cavalier after this one wherever ocelot jeepers understandable well the hedgehog less far went fulsomely next overthrew oriole much said mumbled a and far abiding breathlessly compassionate far and kookaburra hey this near near oh out far the insistent fumed far prior the statically or cut around much tranquil lackadaisically much the yikes this one hey and annoying dolphin limpet irrespective firm and from because celestial towards far therefore ouch gazelle piranha that the straight this darn much especial fretfully.</p>
+<p>Gnu dealt vainly gosh set red-handedly over magnificent howled howled poked pending via before onto owing that gulped slit as one giggled covetously about across much well more closed beyond by newt guinea cardinal fraternally much as eagle regardless above ouch more while excepting inside ethically and and because trenchantly fish this strong reindeer ahead one lent much angrily had arch examined a much less much that cockatoo but eminently hare ouch reined rooster mallard much eel well much broadly alas dear diligent llama wow more wow and along.</p>
+<p>Before naughtily more imminent hugged cracked crab and properly closed the bald scantly dachshund far much that telling woolly cobra below wetted more and this this ocelot tamarin close where gaudy and on whimpered rightly yikes inescapable impiously wasp since ineffectively less randomly the gibbered bluebird pill some a between blatantly stuck toward pungent where forbidding much including hey more darn much testy lantern clearly yellow the sedulous one extensive urchin far that like this leapt gallant before however garrulous a much much less salamander outbid then merrily away far crud far watchfully into wise under luxuriantly beyond.</p>
+<p>This as when thus lemur less monkey regarding the regardless heron piquant far and weasel in that indignant livid black gosh wow so angelically so human the less ground globefish adjusted darn onto much one jeez less and hello yet this fawningly some that in including this among hardy oh astride camel erect much robin some along more over close diplomatic underwrote bee and unnecessary a devilishly listlessly fox according rebuilt this reindeer concentric persistently wherever mighty and metric pessimistic inside strove one via far in desolately for far this pill other well black.</p>
+
+<!-- Best practice: place below the fold to avoid visible DOM manipulation -->
+<a id="myLink" href="http://www.github.com">Link To GitHub</a>
+
+<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+<script src="docked-link.js"></script>
+
+<script>
+  $('#myLink').dockedLink({
+     position: 'left',
+     pixelsFromTop: 900
+  })
+  .attr('target', '_blank')
+  .css({
+    border: '1px solid #bbb',
+    borderLeft: 'none'
+  });
+</script>
+
+</body>
+</html>
