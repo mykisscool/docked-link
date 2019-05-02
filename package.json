@@ -1,0 +1,25 @@
+{
+  "name": "docked-link",
+  "version": "1.0.0",
+  "description": "This jQuery plugin adds a fixed link below the fold anchored to either the center-left or center-right of your browser window. Simply specify the element/link, how far below the fold you'd like your link to appear (where the tripwire is), and which side of the browser window you'd like your link docked on.",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykisscool/docked-link.git"
+  },
+  "author": "Mike Petruniak <mike.petruniak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mykisscool/docked-link/issues"
+  },
+  "homepage": "https://github.com/mykisscool/docked-link#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-header": "^2.0.7",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8"
+  }
+}
