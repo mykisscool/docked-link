@@ -28,7 +28,7 @@
       // Short-length pages
       if (options.pixelsFromTop > totalPageHeight) {
         $elem.css({
-          display: 'block',
+          display: $elem.is(":visible") ? 'block' : 'none',
           position: 'fixed',
           top: viewPortHalfHeight - quickQuoteButtonHalfHeight
         });
@@ -36,7 +36,7 @@
       // Long-length pages
       else {
         $elem.css({
-          display: 'block',
+          display: $elem.is(":visible") ? 'block' : 'none',
           top: options.pixelsFromTop
         });
 
