@@ -1,7 +1,7 @@
 # Docked Link jQuery Plugin
 This jQuery plugin adds a fixed link below the fold anchored to either the center-left or center-right of your browser window. Simply specify the element/link, how far below the fold you'd like your link to appear (where the tripwire is), and which side of the browser window you'd like your link docked on.
 
-[DEMO](http://mykisscool.github.io/docked-link/)
+[DEMO](https://mykisscool.github.io/docked-link/)
 
 ### Basic requirements
 
